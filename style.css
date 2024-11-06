@@ -19,6 +19,7 @@ body {
   width: 340px;
   padding: 20px;
   border-radius: 20px;
+  display: grid;
   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
 }
 
@@ -64,7 +65,7 @@ body {
 }
 
 .calculator .buttons span:active {
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px #fff;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 20px #fff;
   color: #f44336;
 }
 
